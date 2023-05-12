@@ -7947,6 +7947,7 @@ void __init trace_init(void)
 			tracepoint_printk = 0;
 	}
 	tracer_alloc_buffers();
+	init_events();
 	trace_event_init();
 }
 
